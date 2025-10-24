@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Research outputs (user-generated)
+research/*_output_*.txt
+research/*_report_*.txt
+research/vulkaninfo_*.json
+research/my_*.txt
+research/*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# ADB logs
+adb.log
+logcat.txt
+
+# NDK binaries
+android-ndk-*/
+platform-tools/
+
+# Extracted archives (already in repo, don't ignore base structure)
+# Keep extracted/ directory for reference
+
+# Cache directories
+.cache/
+tmp/
+temp/
+
+# OS-specific
+Thumbs.db
+.DS_Store
+desktop.ini
