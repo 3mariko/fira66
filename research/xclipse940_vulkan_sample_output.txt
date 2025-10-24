@@ -1,0 +1,189 @@
+================================================================================
+VULKAN CAPABILITY REPORT - Exynos 2400 (Xclipse 940)
+================================================================================
+
+## Device Information
+  model: Samsung Galaxy S24
+  android_version: 14
+  chipset: s5e9945 (Exynos 2400)
+
+## Device Properties
+  deviceName: Xclipse 940
+  deviceType: INTEGRATED_GPU
+  driverVersion: 0x01a00000 (1.160.0)
+  apiVersion: 1.3.275 (0x00403113)
+  vendorID: 0x144D (Samsung)
+  deviceID: 0x73A0
+
+## Instance Extensions (21)
+  - VK_EXT_debug_report (v10)
+  - VK_EXT_debug_utils (v2)
+  - VK_EXT_swapchain_colorspace (v4)
+  - VK_KHR_android_surface (v6)
+  - VK_KHR_device_group_creation (v1)
+  - VK_KHR_external_fence_capabilities (v1)
+  - VK_KHR_external_memory_capabilities (v1)
+  - VK_KHR_external_semaphore_capabilities (v1)
+  - VK_KHR_get_physical_device_properties2 (v2)
+  - VK_KHR_get_surface_capabilities2 (v1)
+  - VK_KHR_surface (v25)
+  - VK_KHR_surface_protected_capabilities (v1)
+
+## Device Extensions (98)
+  - VK_ANDROID_external_memory_android_hardware_buffer (v5)
+  - VK_EXT_4444_formats (v1)
+  - VK_EXT_blend_operation_advanced (v2)
+  - VK_EXT_conditional_rendering (v2)
+  - VK_EXT_conservative_rasterization (v1)
+  - VK_EXT_custom_border_color (v12)
+  - VK_EXT_depth_clip_control (v1)
+  - VK_EXT_depth_clip_enable (v1)
+  - VK_EXT_descriptor_indexing (v2)
+  - VK_EXT_external_memory_dma_buf (v1)
+  - VK_EXT_filter_cubic (v3)
+  - VK_EXT_fragment_shader_interlock (v1)
+  - VK_EXT_global_priority (v2)
+  - VK_EXT_image_drm_format_modifier (v2)
+  - VK_EXT_index_type_uint8 (v1)
+  - VK_EXT_inline_uniform_block (v1)
+  - VK_EXT_line_rasterization (v1)
+  - VK_EXT_memory_budget (v1)
+  - VK_EXT_primitive_topology_list_restart (v1)
+  - VK_EXT_private_data (v1)
+  - VK_EXT_provoking_vertex (v1)
+  - VK_EXT_queue_family_foreign (v1)
+  - VK_EXT_robustness2 (v1)
+  - VK_EXT_sample_locations (v1)
+  - VK_EXT_sampler_filter_minmax (v2)
+  - VK_EXT_scalar_block_layout (v1)
+  - VK_EXT_separate_stencil_usage (v1)
+  - VK_EXT_shader_demote_to_helper_invocation (v1)
+  - VK_EXT_shader_stencil_export (v1)
+  - VK_EXT_shader_viewport_index_layer (v1)
+  - VK_EXT_subgroup_size_control (v2)
+  - VK_EXT_swapchain_maintenance1 (v1)
+  - VK_EXT_texel_buffer_alignment (v1)
+  - VK_EXT_texture_compression_astc_hdr (v1)
+  - VK_EXT_tooling_info (v1)
+  - VK_EXT_transform_feedback (v1)
+  - VK_EXT_vertex_attribute_divisor (v3)
+  - VK_EXT_ycbcr_image_arrays (v1)
+  - VK_GOOGLE_display_timing (v1)
+  - VK_KHR_16bit_storage (v1)
+  - VK_KHR_8bit_storage (v1)
+  - VK_KHR_bind_memory2 (v1)
+  - VK_KHR_buffer_device_address (v1)
+  - VK_KHR_copy_commands2 (v1)
+  - VK_KHR_create_renderpass2 (v1)
+  - VK_KHR_dedicated_allocation (v3)
+  - VK_KHR_depth_stencil_resolve (v1)
+  - VK_KHR_descriptor_update_template (v1)
+  - VK_KHR_device_group (v4)
+  - VK_KHR_draw_indirect_count (v1)
+  - VK_KHR_driver_properties (v1)
+  - VK_KHR_dynamic_rendering (v1)
+  - VK_KHR_external_fence (v1)
+  - VK_KHR_external_fence_fd (v1)
+  - VK_KHR_external_memory (v1)
+  - VK_KHR_external_memory_fd (v1)
+  - VK_KHR_external_semaphore (v1)
+  - VK_KHR_external_semaphore_fd (v1)
+  - VK_KHR_format_feature_flags2 (v2)
+  - VK_KHR_fragment_shading_rate (v2)
+  - VK_KHR_get_memory_requirements2 (v1)
+  - VK_KHR_image_format_list (v1)
+  - VK_KHR_imageless_framebuffer (v1)
+  - VK_KHR_incremental_present (v2)
+  - VK_KHR_maintenance1 (v2)
+  - VK_KHR_maintenance2 (v1)
+  - VK_KHR_maintenance3 (v1)
+  - VK_KHR_maintenance4 (v2)
+  - VK_KHR_multiview (v1)
+  - VK_KHR_pipeline_executable_properties (v1)
+  - VK_KHR_push_descriptor (v2)
+  - VK_KHR_relaxed_block_layout (v1)
+  - VK_KHR_sampler_mirror_clamp_to_edge (v3)
+  - VK_KHR_sampler_ycbcr_conversion (v14)
+  - VK_KHR_separate_depth_stencil_layouts (v1)
+  - VK_KHR_shader_atomic_int64 (v1)
+  - VK_KHR_shader_clock (v1)
+  - VK_KHR_shader_draw_parameters (v1)
+  - VK_KHR_shader_float16_int8 (v1)
+  - VK_KHR_shader_float_controls (v4)
+  - VK_KHR_shader_non_semantic_info (v1)
+  - VK_KHR_shader_subgroup_extended_types (v1)
+  - VK_KHR_shader_terminate_invocation (v1)
+  - VK_KHR_spirv_1_4 (v1)
+  - VK_KHR_storage_buffer_storage_class (v1)
+  - VK_KHR_swapchain (v70)
+  - VK_KHR_swapchain_mutable_format (v1)
+  - VK_KHR_synchronization2 (v1)
+  - VK_KHR_timeline_semaphore (v2)
+  - VK_KHR_uniform_buffer_standard_layout (v1)
+  - VK_KHR_variable_pointers (v1)
+  - VK_KHR_vulkan_memory_model (v3)
+  - VK_KHR_workgroup_memory_explicit_layout (v1)
+  - VK_KHR_zero_initialize_workgroup_memory (v1)
+
+## Device Features
+### Enabled Features (47)
+  + alphaToOne
+  + depthBiasClamp
+  + depthClamp
+  + drawIndirectFirstInstance
+  + dualSrcBlend
+  + fillModeNonSolid
+  + fragmentStoresAndAtomics
+  + fullDrawIndexUint32
+  + geometryShader
+  + imageCubeArray
+  + independentBlend
+  + largePoints
+  + logicOp
+  + multiDrawIndirect
+  + multiViewport
+  + occlusionQueryPrecise
+  + pipelineStatisticsQuery
+  + robustBufferAccess
+  + samplerAnisotropy
+  + sampleRateShading
+  + shaderClipDistance
+  + shaderCullDistance
+  + shaderFloat64
+  + shaderImageGatherExtended
+  + shaderInt16
+  + shaderInt64
+  + shaderResourceMinLod
+  + shaderResourceResidency
+  + shaderSampledImageArrayDynamicIndexing
+  + shaderStorageBufferArrayDynamicIndexing
+  + shaderStorageImageArrayDynamicIndexing
+  + shaderStorageImageExtendedFormats
+  + shaderStorageImageMultisample
+  + shaderStorageImageReadWithoutFormat
+  + shaderStorageImageWriteWithoutFormat
+  + shaderTessellationAndGeometryPointSize
+  + shaderUniformBufferArrayDynamicIndexing
+  + sparseBinding
+  + sparseResidencyBuffer
+  + sparseResidencyImage2D
+  + tessellationShader
+  + textureCompressionASTC_LDR
+  + textureCompressionETC2
+  + variableMultisampleRate
+  + vertexPipelineStoresAndAtomics
+  + wideLines
+
+### Disabled Features (8)
+  - depthBounds
+  - inheritedQueries
+  - shaderSampledImageArrayDynamicIndexing
+  - sparseResidency16Samples
+  - sparseResidency2Samples
+  - sparseResidency4Samples
+  - sparseResidency8Samples
+  - sparseResidencyImage3D
+
+## Notes
+This is a sample output representing typical Xclipse 940 capabilities.
+Actual device output may vary based on driver version and firmware.
